@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Irish Grover', cursive;
+    margin: 0px;
+    background-image: linear-gradient(180deg, #63B3C5, #fff);
+
+}
+
+.tela {
+
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.back {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.chao {
+    width: 2000px;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.arvores {
+    width: 2000px;
+    height: auto;
+    bottom: 0;
+    position: absolute;
+}
+
+.alien {
+    width: 80px;
+    position: absolute;
+    bottom: 30px;
+    animation: alien-animation 3s infinite linear;
+}
+
+.run {
+    width: 90px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.jump {
+    animation: jump 600ms infinite ease-out;
+}
+
+.clouds {
+    position: absolute;
+    width: 400px;
+    animation: clouds-animation 15s infinite linear;
+    margin-top: 30px;
+}
+
+@keyframes alien-animation {
+    from {
+        right: -80px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+
+    /*inicio*/
+    0% {
+        bottom: 30px;
+    }
+
+    40% {
+        bottom: 188px;
+    }
+
+    /*meio*/
+    50% {
+        bottom: 188px;
+    }
+
+    60% {
+        bottom: 188px;
+    }
+
+    /*fim*/
+    100% {
+        bottom: 30px;
+    }
+}
+
+
+@keyframes clouds-animation {
+    from {
+        right: -400px;
+    }
+
+    to {
+        right: 100%;
+    }
+}
+
+.button {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: 100px;
+}
+
+.voltar {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.voltar:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.start {
+    background-color: white;
+    color: black;
+}
+
+.start:hover {
+    background-color: #c50909;
+    color: white;
+}

@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Irish Grover', cursive;
+    margin: 0px;
+}
+
+.back {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+h1 .h1color {
+    color: #BE2C2C
+}
+
+.bntjogar {
+    width: 180px;
+    display: inline-block;
+    background: #BE2C2C;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 9px 40px;
+    border-radius: 5px;
+    border: 2px solid #BE2C2C;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .bntjogar:hover {
+    background: #222249;
+    border: 2px solid #222249;
+    color: #ffffff;
+  }
+
+.start, .end img{
+    width: 200px;
+    height: auto;
+}
+
+p {
+    font-size: 18px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+@media (max-width: 723px){
+    .conteudo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
