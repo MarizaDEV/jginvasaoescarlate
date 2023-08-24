@@ -1,7 +1,7 @@
  ### JOGO INVASÃO ESCARLATE
 
-<img src="imagem.png" alt="Exemplo imagem">
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="https://github.com/MarizaDEV/jginvasaoescarlate/blob/main/imagens/telainicial.png">
+<img src="https://github.com/MarizaDEV/jginvasaoescarlate/blob/main/imagens/telajogo.png" >
 
 > Jogo realizado com o objetivo de estudar javaScript e tecnologias html e css.
 
@@ -14,3 +14,5 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [ ] Novas funções
 - [ ] Animação dos elementos
 
+
+### JOGO EM DESENVOLVIMENTO. VERSÃO 1.0
