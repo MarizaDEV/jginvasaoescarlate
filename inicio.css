@@ -54,9 +54,17 @@ h1 .h1color {
     color: #ffffff;
   }
 
-.start, .end img{
+.end img{
     width: 200px;
     height: auto;
+}
+
+.start img {
+    width: 90px;
+}
+
+.start h1 {
+    font-size: 15px;
 }
 
 p {

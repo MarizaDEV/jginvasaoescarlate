@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Irish Grover', cursive;
+    margin: 0px;
+    background-color: brown;
+}
+
+.conteudo {
+    width: 1000px;
+    height: auto;
+    background-color: rgb(243, 244, 247);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    padding-bottom: 20px;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    color: brown;
+}
+
+p {
+    font-size: 18px;
+}
+
+.imagem {
+    width: 50px;
+    height: auto;
+    bottom: 0;
+}
+
+.nave {
+    width: 180px;
+}
+
+.bntvoltar {
+    width: 80px;
+    display: inline-block;
+    background: #BE2C2C;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid #BE2C2C;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .bntvoltar:hover {
+    background: #000000;
+    border: 2px solid #000000;
+    color: #ffffff;
+  }
