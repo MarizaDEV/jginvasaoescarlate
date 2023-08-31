@@ -20,10 +20,11 @@ body {
 .conteudo {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
     flex-wrap: wrap;
+    
 }
 
 h1 {
@@ -60,7 +61,7 @@ h1 .h1color {
 }
 
 .start img {
-    width: 90px;
+    width: 200px;
 }
 
 .start h1 {
@@ -83,9 +84,14 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        gap: 15px;
     }
 
     h1 {
         font-size: 40px;
+    }
+    .start img {
+        width: 120px;
     }
 }
